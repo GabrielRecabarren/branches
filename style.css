@@ -15,11 +15,13 @@ h1 {
 }
   
 img {
-  max-width: 40%;
   padding: 20px;
   display: block;
   margin: 0 auto;
 }
+img :hover {
+  cursor: pointer;
+  }
 
 form {
   padding: 30px;
@@ -57,3 +59,4 @@ form {
   box-shadow: none;
   top: 6px; 
 } 
+
